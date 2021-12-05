@@ -51,6 +51,31 @@ constructor(
         name = QWANT,
         iconUri = "https://lh3.googleusercontent.com/gZM93E0coPblwJysaGbAVgTRXPld0ZDRtrbmclDqWWrPJLKIjyVB9XKqOX8OM9_3GJI=s192-rw".toUri(),
         searchUrlPrefix = "https://www.qwant.com/?q="
+      ),
+      SearchProvider(
+        name = SWISSCOWS,
+        iconUri = "https://www.google.com/s2/favicons?sz=128&domain=swisscows.com"
+        searchUrlPrefix = "https://swisscows.com/web?query="
+      ),
+      SearchProvider(
+        name = METAGER,
+        iconUri = "https://www.google.com/s2/favicons?sz=128&domain=metager.org"
+        searchUrlPrefix = "https://metager.org/meta/meta.ger3?focus=web&eingabe="
+      ),
+      SearchProvider(
+        name = MOJEEK,
+        iconUri = "https://www.google.com/s2/favicons?sz=128&domain=mojeek.com"
+        searchUrlPrefix = "https://www.mojeek.com/search?q="
+      ),
+      SearchProvider(
+        name = GIGABLAST,
+        iconUri = "https://www.google.com/s2/favicons?sz=128&domain=gigablast.com"
+        searchUrlPrefix = "https://www.gigablast.com/search?c=main&q="
+      ),
+      SearchProvider(
+        name = RANDSEARX,
+        iconUri = "https://www.google.com/s2/favicons?sz=128&domain=searx.neocities.org"
+        searchUrlPrefix = "https://searx.neocities.org/?q=" 
       )
     )
   }
@@ -75,6 +100,11 @@ constructor(
     const val DUCKDUCKGO = "Duck Duck Go"
     const val BING = "Bing"
     const val QWANT = "Qwant"
+    const val SWISSCOWS = "SwissCows"
+    const val METAGER = "Metager"
+    const val MOJEEK = "Mojeek"
+    const val GIGABLAST = "Gigablast"
+    const val RANSEARX = "Random SEARX instance"
 
     val GOOGLE_SEARCH_PROVIDER = SearchProvider(
       name = GOOGLE,
